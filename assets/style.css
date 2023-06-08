@@ -1,0 +1,73 @@
+:root {
+  --color-neutral-10: #0d1117;
+  --color-neutral-20: #161b22;
+  --color-neutral-30: #21262d;
+  --color-neutral-40: #30363d;
+  --color-neutral-50: #8b949e;
+  --color-neutral-60: #c9d1d9;
+  --color-neutral-70: #ffffff;
+
+  --color-link: #58a6ff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: var(--color-neutral-20);
+  color: var(--color-neutral-60);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  display: flex;
+  margin: ;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  padding: 16px;
+  font-size: 14px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 400px;
+}
+
+.input-field input {
+  padding: 5px 12px;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-neutral-70);
+  border-radius: 6px;
+  background-color: var(--color-neutral-20);
+  border: 1px solid var(--color-neutral-40);
+  margin-bottom: 10px;
+}
+
+.input-field a:first-child {
+  display: inline;
+  align-items: end;
+}
